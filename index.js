@@ -1,16 +1,6 @@
+
 const burgerBtn =document.querySelector('.burger-btn');
 const navEl = document.querySelector('.main-nav');
-
-burgerBtn.addEventListener('click', ()=> {
-  if (navEl.classList.contains('show')){
-    navEl.classList.remove('show');
-  }else {
-    navEl.classList.add('show');
-    
-  }
-});
-
-
 // fetching planets
  
 //main part
@@ -125,3 +115,13 @@ for (let i = 0; i < planets.length; i++) {
 
 
 
+
+
+burgerBtn.addEventListener('click', ()=> {
+  if (navEl.classList.contains('show')){
+    navEl.classList.remove('show');
+  }else {
+    navEl.classList.add('show');
+    
+  }
+});
